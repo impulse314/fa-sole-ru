@@ -1,0 +1,1678 @@
+* {
+  box-sizing: border-box;
+}
+/*-----------------------------------------------------
+
+Main page
+
+-----------------------------------------------------*/
+body {
+  font-size: 14px;
+}
+.mainpage {
+  width: 100%;
+  height: 3138px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.header {
+  width: 90%;
+  height: 127px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 121px;
+  overflow: hidden;
+}
+.headerrectangle {
+  width: 100%;
+  height: 127px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.headerlogo {
+  width: 89px;
+  height: 84px;
+  background: url("../images/fglogo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 21px;
+  overflow: hidden;
+}
+.mainlink {
+  width: 122px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 45px;
+  left: 178px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.courseslink {
+  width: 94px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 45px;
+  left: 348px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.usefulslink {
+  width: 289px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 45px;
+  left: 701px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.aboutlink {
+  width: 123px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 45px;
+  left: 1038px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.resourcelink {
+  width: 164px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 45px;
+  left: 489px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 5px;
+}
+.registrationbutton {
+  width: 247px;
+  height: 78px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 1215px;
+  overflow: hidden;
+}
+.rbrct {
+  width: 247px;
+  height: 78px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.rbtxt {
+  width: 166px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 22px;
+  left: 42px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.mainloginbutton {
+  width: 171px;
+  height: 78px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 1483px;
+  overflow: hidden;
+}
+.lbrct {
+  width: 171px;
+  height: 78px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.lbtxt {
+  width: 62px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 22px;
+  left: 56px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.greeting {
+  width: 100%;
+  height: 607px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 268px;
+  left: 141px;
+  overflow: hidden;
+}
+.pc {
+  width: 122px;
+  height: 122px;
+  background: rgba(227,134,134,1);
+  opacity: 1;
+  position: absolute;
+  top: 96px;
+  left: 1389px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.yc {
+  width: 122px;
+  height: 122px;
+  background: rgba(227,207,134,1);
+  opacity: 1;
+  position: absolute;
+  top: 286px;
+  left: 931px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bc {
+  width: 159px;
+  height: 159px;
+  background: rgba(134,216,227,1);
+  opacity: 1;
+  position: absolute;
+  top: 443px;
+  left: 1319px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.synthicon {
+  width: 145px;
+  height: 145px;
+  background: url("../images/synthicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 1343px;
+  overflow: hidden;
+}
+.guitaricon {
+  width: 164px;
+  height: 164px;
+  background: url("../images/guitaricon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 1373px;
+  transform: rotate(-18deg);
+  overflow: hidden;
+}
+.egicon {
+  width: 170px;
+  height: 170px;
+  background: url("../images/egicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  opacity: 1;
+  position: absolute;
+  top: 244px;
+  left: 915px;
+  transform: rotate(-18deg);
+  overflow: hidden;
+}
+.welcometext {
+  width: 797px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 72px;
+  opacity: 1;
+  text-align: left;
+}
+.welcomequiz {
+  width: 613px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 331px;
+  left: 0px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Antipasto Pro;
+  font-weight: Light;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.getstartedbutton {
+  width: 286px;
+  height: 78px;
+  opacity: 1;
+  position: absolute;
+  top: 529px;
+  left: 1px;
+  overflow: hidden;
+}
+.gsbrct {
+  width: 286px;
+  height: 78px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.gsbtxt {
+  width: 124px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 82px;
+  font-family: Antipasto Pro;
+  font-weight: DemiBold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.sc {
+  width: 39px;
+  height: 39px;
+  background: rgba(196,187,249,1);
+  filter: blur(4px);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 152px;
+  left: 1195px;
+  border-radius: 50%;
+}
+.gc {
+  width: 39px;
+  height: 39px;
+  background: rgba(136,219,144,1);
+  filter: blur(4px);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 0px;
+  left: 1304px;
+  border-radius: 50%;
+}
+.oc {
+  width: 39px;
+  height: 39px;
+  background: rgba(249,210,187,1);
+  filter: blur(4px);
+  opacity: 0.6499999761581421;
+  position: absolute;
+  top: 52px;
+  left: 992px;
+  border-radius: 50%;
+}
+.lpc {
+  width: 39px;
+  height: 39px;
+  background: rgba(252,145,255,1);
+  filter: blur(4px);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 349px;
+  left: 1134px;
+  border-radius: 50%;
+}
+.ppc {
+  width: 39px;
+  height: 39px;
+  background: rgba(241,111,212,1);
+  filter: blur(4px);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 332px;
+  left: 1562px;
+  border-radius: 50%;
+  transform: rotate(-35deg);
+}
+.pbc {
+  width: 39px;
+  height: 39px;
+  background: rgba(74,146,255,1);
+  filter: blur(4px);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 310px;
+  left: 1334px;
+  border-radius: 50%;
+  transform: rotate(-35deg);
+}
+.steps {
+  width: 100%;
+  height: 455px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1026px;
+  left: 121px;
+  overflow: hidden;
+}
+.stepsbox {
+  width: 90%;
+  height: 387px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: absolute;
+  top: 68px;
+  left: 0px;
+  border-top-left-radius: 167px;
+  border-top-right-radius: 167px;
+  border-bottom-left-radius: 167px;
+  border-bottom-right-radius: 167px;
+  overflow: hidden;
+}
+.s1 {
+  width: 241px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 322px;
+  left: 174px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.s2 {
+  width: 269px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 157px;
+  left: 427px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.s3 {
+  width: 238px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 322px;
+  left: 720px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.s4 {
+  width: 368px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 157px;
+  left: 922px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.s5 {
+  width: 130px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 322px;
+  left: 1316px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.v1 {
+  width: 188px;
+  height: 75px;
+  background: url("../images/Vector1.svg");
+  opacity: 1;
+  position: absolute;
+  top: 322px;
+  left: 303px;
+}
+.v3 {
+  width: 196px;
+  height: 65px;
+  background: url("../images/Vector3.svg");
+  opacity: 1;
+  position: absolute;
+  top: 326px;
+  left: 839px;
+}
+.v2 {
+  width: 205px;
+  height: 65px;
+  background: url("../images/Vector2.svg");
+  opacity: 1;
+  position: absolute;
+  top: 120px;
+  left: 566px;
+}
+.v4 {
+  width: 206px;
+  height: 75px;
+  background: url("../images/Vector4.svg");
+  opacity: 1;
+  position: absolute;
+  top: 120px;
+  left: 1106px;
+}
+.wvpolygon {
+  width: 318px;
+  height: 326px;
+  background: url("../images/wvpolygon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 80px;
+  left: 140px;
+  overflow: hidden;
+}
+.cmpolygon {
+  width: 318px;
+  height: 326px;
+  background: url("../images/cmpolygon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 115px;
+  left: 410px;
+  overflow: hidden;
+}
+.gtpolygon {
+  width: 318px;
+  height: 326px;
+  background: url("../images/gtpolygon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 80px;
+  left: 680px;
+  overflow: hidden;
+}
+.dtpolygon {
+  width: 318px;
+  height: 326px;
+  background: url("../images/dtpolygon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 115px;
+  left: 950px;
+  overflow: hidden;
+}
+.fpolygon {
+  width: 318px;
+  height: 326px;
+  background: url("../images/fpolygon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 80px;
+  left: 1220px;
+  overflow: hidden;
+}
+.tfive {
+  width: 604px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 537px;
+  font-family: Antipasto Pro;
+  font-weight: DemiBold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.coursesbox {
+  width: 100%;
+  height: 424px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1502px;
+  left: 262px;
+  overflow: hidden;
+}
+.ourc {
+  width: 253px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 571px;
+  font-family: Antipasto Pro;
+  font-weight: DemiBold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.egbox {
+  width: 446px;
+  height: 286px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 68px;
+  left: 0px;
+  overflow: hidden;
+}
+.egbrct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.egbicon {
+  width: 175px;
+  height: 175px;
+  background: url("../images/egcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 253px;
+  overflow: hidden;
+}
+.egbtitle {
+  width: 219px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.egbbasics {
+  width: 134px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.egbdur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.egbw {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.agbox {
+  width: 446px;
+  height: 286px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 68px;
+  left: 475px;
+  overflow: hidden;
+}
+.agrct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.agicon {
+  width: 170px;
+  height: 170px;
+  background: url("../images/guitarcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 58px;
+  left: 259px;
+  overflow: hidden;
+}
+.agdur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.agw {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.agbasics {
+  width: 134px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.agtitle {
+  width: 101px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.synthbox {
+  width: 446px;
+  height: 286px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 68px;
+  left: 950px;
+  overflow: hidden;
+}
+.synthrct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.sbicon {
+  width: 175px;
+  height: 175px;
+  background: url("../images/synthcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 253px;
+  overflow: hidden;
+}
+.synthdur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.synthw {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.synthbasics {
+  width: 134px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.synthtitle {
+  width: 162px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.allcbutton {
+  width: 250px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 364px;
+  left: 573px;
+  overflow: hidden;
+}
+.allcbuttonbox {
+  width: 250px;
+  height: 60px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.allcbuttontxt {
+  width: 211px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 16px;
+  left: 19px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.footerbox {
+  width: 100%;
+  height: 869px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2076px;
+  left: 28px;
+  overflow: hidden;
+}
+.footerwc {
+  width: 90%;
+  height: 387px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: absolute;
+  top: 299px;
+  left: 93px;
+  border-top-left-radius: 167px;
+  border-top-right-radius: 167px;
+  border-bottom-left-radius: 167px;
+  border-bottom-right-radius: 167px;
+  overflow: hidden;
+}
+.fwcbutton {
+  width: 250px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 548px;
+  left: 234px;
+  overflow: hidden;
+}
+.fwcrct {
+  width: 250px;
+  height: 60px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.fwctxt {
+  width: 145px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 16px;
+  left: 52px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.fwcline1 {
+  width: 618px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 357px;
+  left: 234px;
+  font-family: Antipasto Pro;
+  font-weight: DemiBold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.fwcline2 {
+  width: 757px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 409px;
+  left: 234px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.pianoimg {
+  width: 573px;
+  height: 493px;
+  background: url("../images/pianoimg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 193px;
+  left: 1215px;
+  overflow: hidden;
+}
+.agimg {
+  width: 398px;
+  height: 479px;
+  background: url("../images/agimg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 207px;
+  left: 1136px;
+  overflow: hidden;
+}
+.egimg {
+  width: 438px;
+  height: 507px;
+  background: url("../images/egimg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 179px;
+  left: 1038px;
+  overflow: hidden;
+}
+.fwclp {
+  width: 61px;
+  height: 61px;
+  background: rgba(196,187,249,1);
+  filter: blur(4px);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 564px;
+  left: 10px;
+  border-radius: 50%;
+}
+.fwco {
+  width: 72px;
+  height: 72px;
+  filter: blur(4px);
+  background: rgba(249,210,187,1);
+  opacity: 0.6499999761581421;
+  position: absolute;
+  top: 55px;
+  left: 1453px;
+  border-radius: 50%;
+}
+.fwcp {
+  width: 61px;
+  height: 61px;
+  filter: blur(4px);
+  background: rgba(252,145,255,1);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 333px;
+  left: 1805px;
+  border-radius: 50%;
+}
+.fwcpp {
+  width: 69px;
+  height: 69px;
+  filter: blur(4px);
+  background: rgba(241,111,212,1);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 260px;
+  left: 37px;
+  border-radius: 50%;
+  transform: rotate(-35deg);
+}
+.fwcb {
+  width: 119px;
+  height: 119px;
+  background: rgba(74,146,255,1);
+  filter: blur(4px);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 98px;
+  left: 728px;
+  border-radius: 50%;
+  transform: rotate(-35deg);
+}
+.fwclg {
+  width: 113px;
+  height: 113px;
+  background: rgba(136,219,144,1);
+  filter: blur(4px);
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 750px;
+  left: 662px;
+  border-radius: 50%;
+}
+.hash1 {
+  width: 567px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 238px;
+  left: 54px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+  transform: rotate(-20deg);
+}
+.hash2 {
+  width: 375px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 50px;
+  left: 1306px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 55px;
+  opacity: 1;
+  text-align: left;
+  transform: rotate(-18deg);
+}
+.hash3 {
+  width: 410px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 75px;
+  left: 778px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.hash4 {
+  width: 451px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 783px;
+  left: 699px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 52px;
+  opacity: 1;
+  text-align: left;
+}
+.pageend {
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3038px;
+  left: 0px;
+  overflow: hidden;
+}
+.perct {
+  width: 100%;
+  height: 100px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.pelogo {
+  width: 56px;
+  height: 53px;
+  background: url("../images/fglogo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 23px;
+  left: 1710px;
+  overflow: hidden;
+}
+.pesign {
+  width: 164px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 36px;
+  left: 475px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.pegh {
+  width: 134px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 36px;
+  left: 122px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.peabout {
+  width: 59px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 36px;
+  left: 336px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+/*-----------------------------------------------------
+
+Register/login page
+
+-----------------------------------------------------*/
+.loginpage {
+  width: 100%;
+  height: 1250px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.fglogo {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 840px;
+  overflow: hidden;
+}
+.fglogorct {
+  width: 198px;
+  height: 192px;
+  background: rgba(239,236,236,1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.fglogoicon {
+  width: 135px;
+  height: 127px;
+  background: url("../images/fglogo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 33px;
+  left: 32px;
+  overflow: hidden;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1150px;
+  left: 0px;
+  overflow: hidden;
+}
+.footerrct {
+  width: 100%;
+  height: 100px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.footerlogo {
+  width: 56px;
+  height: 53px;
+  background: url("../images/fglogo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 23px;
+  left: 1710px;
+  overflow: hidden;
+}
+.copyright {
+  width: 164px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 36px;
+  left: 475px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.github {
+  width: 134px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 36px;
+  left: 122px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.about {
+  width: 59px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 36px;
+  left: 336px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.form {
+  width: 580px;
+  height: 818px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 292px;
+  left: 650px;
+  overflow: hidden;
+}
+.formrct {
+  width: 566px;
+  height: 808px;
+  background: rgba(239,236,236,1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.enterformrct{
+  width: 566px;
+  height: 446px;
+  background: rgba(239,236,236,1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.formtitle {
+  width: 351px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 107px;
+  font-family: Helvetica;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.email {
+  width: 506px;
+  height: 50px;
+  background: rgba(217,216,216,1);
+  opacity: 1;
+  position: absolute;
+  top: 228px;
+  left: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.login {
+  width: 506px;
+  height: 50px;
+  background: rgba(217,216,216,1);
+  opacity: 1;
+  position: absolute;
+  top: 128px;
+  left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.emailtxt {
+  width: 49px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 244px;
+  left: 50px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.logintxt {
+  width: 49px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 144px;
+  left: 50px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.secondname {
+  width: 506px;
+  height: 50px;
+  background: rgba(217,216,216,1);
+  opacity: 1;
+  position: absolute;
+  top: 428px;
+  left: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.firstname {
+  width: 506px;
+  height: 50px;
+  background: rgba(217,216,216,1);
+  opacity: 1;
+  position: absolute;
+  top: 328px;
+  left: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.secondnametxt {
+  width: 74px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 444px;
+  left: 50px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.firstnametxt {
+  width: 35px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 344px;
+  left: 50px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.password {
+  width: 506px;
+  height: 50px;
+  background: rgba(217,216,216,1);
+  opacity: 1;
+  position: absolute;
+  top: 528px;
+  left: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.passwordtxt {
+  width: 61px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 544px;
+  left: 50px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.enterformpassword {
+  width: 506px;
+  height: 50px;
+  background: rgba(217,216,216,1);
+  opacity: 1;
+  position: absolute;
+  top: 228px;
+  left: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.enterformpasswordtxt {
+  width: 61px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 243px;
+  left: 50px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.repeatpassword {
+  width: 506px;
+  height: 50px;
+  background: rgba(217,216,216,1);
+  opacity: 1;
+  position: absolute;
+  top: 628px;
+  left: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.repeatpasswordtxt {
+  width: 150px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 644px;
+  left: 50px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.registerbutton {
+  width: 506px;
+  height: 50px;
+  background: rgba(136,219,144,1);
+  opacity: 1;
+  position: absolute;
+  top: 728px;
+  left: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.loginbutton {
+  width: 506px;
+  height: 50px;
+  background: rgba(136,219,144,1);
+  opacity: 1;
+  position: absolute;
+  top: 328px;
+  left: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.registerbuttontxt {
+  width: 170px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 744px;
+  left: 198px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+.loginbuttontxt {
+  width: 170px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 342px;
+  left: 198px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+/*-----------------------------------------------------
+
+Login page
+
+-----------------------------------------------------*/

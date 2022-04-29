@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-ExtraBold.eot');
+    src: local('Antipasto Pro ExtraBold'), local('AntipastoPro-ExtraBold'),
+        url('AntipastoPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-ExtraBold.woff2') format('woff2'),
+        url('AntipastoPro-ExtraBold.woff') format('woff'),
+        url('AntipastoPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-Thin.eot');
+    src: local('Antipasto Pro Thin'), local('AntipastoPro-Thin'),
+        url('AntipastoPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-Thin.woff2') format('woff2'),
+        url('AntipastoPro-Thin.woff') format('woff'),
+        url('AntipastoPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-Light.eot');
+    src: local('Antipasto Pro Light'), local('AntipastoPro-Light'),
+        url('AntipastoPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-Light.woff2') format('woff2'),
+        url('AntipastoPro-Light.woff') format('woff'),
+        url('AntipastoPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-Bold.eot');
+    src: local('Antipasto Pro Bold'), local('AntipastoPro-Bold'),
+        url('AntipastoPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-Bold.woff2') format('woff2'),
+        url('AntipastoPro-Bold.woff') format('woff'),
+        url('AntipastoPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-Hairline.eot');
+    src: local('Antipasto Pro Hairline'), local('AntipastoPro-Hairline'),
+        url('AntipastoPro-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-Hairline.woff2') format('woff2'),
+        url('AntipastoPro-Hairline.woff') format('woff'),
+        url('AntipastoPro-Hairline.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-DemiBold.eot');
+    src: local('Antipasto Pro DemiBold'), local('AntipastoPro-DemiBold'),
+        url('AntipastoPro-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-DemiBold.woff2') format('woff2'),
+        url('AntipastoPro-DemiBold.woff') format('woff'),
+        url('AntipastoPro-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-ExtraLight.eot');
+    src: local('Antipasto Pro ExtraLight'), local('AntipastoPro-ExtraLight'),
+        url('AntipastoPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-ExtraLight.woff2') format('woff2'),
+        url('AntipastoPro-ExtraLight.woff') format('woff'),
+        url('AntipastoPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-Medium.eot');
+    src: local('Antipasto Pro Medium'), local('AntipastoPro-Medium'),
+        url('AntipastoPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-Medium.woff2') format('woff2'),
+        url('AntipastoPro-Medium.woff') format('woff'),
+        url('AntipastoPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro-Regular.eot');
+    src: local('Antipasto Pro Regular'), local('AntipastoPro-Regular'),
+        url('AntipastoPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AntipastoPro-Regular.woff2') format('woff2'),
+        url('AntipastoPro-Regular.woff') format('woff'),
+        url('AntipastoPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
