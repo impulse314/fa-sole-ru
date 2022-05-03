@@ -69,6 +69,7 @@ body {
   font-size: 36px;
   opacity: 1;
   text-align: left;
+  cursor: pointer;
 }
 .courseslink {
   width: 94px;
@@ -81,6 +82,7 @@ body {
   font-size: 36px;
   opacity: 1;
   text-align: left;
+  cursor: pointer;
 }
 .usefulslink {
   width: 289px;
@@ -93,6 +95,7 @@ body {
   font-size: 36px;
   opacity: 1;
   text-align: left;
+  cursor: pointer;
 }
 .aboutlink {
   width: 123px;
@@ -105,9 +108,10 @@ body {
   font-size: 36px;
   opacity: 1;
   text-align: left;
+  cursor: pointer;
 }
 .resourcelink {
-  width: 164px;
+  width: 165px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 45px;
@@ -118,6 +122,7 @@ body {
   opacity: 1;
   text-align: left;
   letter-spacing: 0px;
+  cursor: pointer;
 }
 .registrationbutton {
   width: 247px;
@@ -130,11 +135,28 @@ body {
   top: 27px;
   left: 1215px;
   overflow: hidden;
+  cursor: pointer;
 }
 .rbrct {
   width: 247px;
   height: 78px;
   background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  transition: 0.35s;
+}
+.rbrct:hover {
+  width: 247px;
+  height: 78px;
+  background: rgba(196,196,196,1);
   opacity: 1;
   position: relative;
   top: 0px;
@@ -168,9 +190,26 @@ body {
   position: absolute;
   top: 27px;
   left: 1483px;
-  overflow: hidden;
+  overflow: hidden;  
+  cursor: pointer;
 }
 .lbrct {
+  width: 171px;
+  height: 78px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  transition: 0.35s;
+}
+.lbrct:hover {
   width: 171px;
   height: 78px;
   background: rgba(196,196,196,1);
@@ -320,11 +359,28 @@ body {
   top: 529px;
   left: 1px;
   overflow: hidden;
+  cursor: pointer;
 }
 .gsbrct {
   width: 286px;
   height: 78px;
   background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  transition: 0.35s;
+}
+.gsbrct:hover {
+  width: 286px;
+  height: 78px;
+  background: rgba(196,196,196,1);
   opacity: 1;
   position: relative;
   top: 0px;
@@ -650,6 +706,7 @@ body {
   top: 68px;
   left: 0px;
   overflow: hidden;
+  cursor: pointer;
 }
 .egbrct {
   width: 446px;
@@ -664,6 +721,27 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.egbrct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 .egbicon {
   width: 175px;
@@ -737,6 +815,7 @@ body {
   top: 68px;
   left: 475px;
   overflow: hidden;
+  cursor: pointer;
 }
 .agrct {
   width: 446px;
@@ -751,6 +830,27 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.agrct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 .agicon {
   width: 170px;
@@ -824,6 +924,7 @@ body {
   top: 68px;
   left: 950px;
   overflow: hidden;
+  cursor: pointer;
 }
 .synthrct {
   width: 446px;
@@ -838,6 +939,27 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.synthrct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 .sbicon {
   width: 175px;
@@ -911,6 +1033,7 @@ body {
   top: 364px;
   left: 573px;
   overflow: hidden;
+  cursor: pointer;
 }
 .allcbuttonbox {
   width: 250px;
@@ -926,6 +1049,24 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
+  transition: 0.35s;
+}
+.allcbuttonbox:hover {
+  width: 250px;
+  height: 60px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  background: rgba(196,196,196,1);
 }
 .allcbuttontxt {
   width: 211px;
@@ -1357,6 +1498,7 @@ Register/login page
   font-size: 24px;
   opacity: 1;
   text-align: left;
+  cursor: pointer;
 }
 .github {
   width: 134px;
@@ -1369,6 +1511,7 @@ Register/login page
   font-size: 24px;
   opacity: 1;
   text-align: left;
+  cursor: pointer;
 }
 .about {
   width: 59px;
@@ -1381,6 +1524,7 @@ Register/login page
   font-size: 24px;
   opacity: 1;
   text-align: left;
+  cursor: pointer;
 }
 .form {
   width: 580px;
@@ -1673,6 +1817,687 @@ Register/login page
 }
 /*-----------------------------------------------------
 
-Login page
+Courses page
 
 -----------------------------------------------------*/
+.allcoursesbox {
+  width: 100%;
+  height: 689px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 233px;
+  left: 263px;
+  overflow: hidden;
+}
+.allcoursestxt {
+  width: 209px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 593px;
+  font-family: Antipasto Pro;
+  font-weight: DemiBold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.egcoursebox {
+  width: 446px;
+  height: 286px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 88px;
+  left: 0px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.egcourseboxrct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.egcourseboxrct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.egcourseboxicon {
+  width: 175px;
+  height: 175px;
+  background: url("../images/egcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 253px;
+  overflow: hidden;
+}
+.egcourseboxtitle {
+  width: 219px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.egcourseboxlevel{
+  width: 134px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.egcourseboxdur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.egcourseboxtime {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.gcoursebox {
+  width: 446px;
+  height: 286px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 88px;
+  left: 475px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gcourseboxrct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.gcourseboxrct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.gcourseboxicon {
+  width: 170px;
+  height: 170px;
+  background: url("../images/guitarcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 58px;
+  left: 259px;
+  overflow: hidden;
+}
+.gcourseboxdur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.gcourseboxtime {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.gcourseboxlevel {
+  width: 134px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.gcourseboxtitle {
+  width: 101px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+
+.keyscoursebox {
+  width: 446px;
+  height: 286px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 88px;
+  left: 950px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.keyscourserct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.keyscourserct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.keyscourseicon {
+  width: 175px;
+  height: 175px;
+  background: url("../images/synthcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 253px;
+  overflow: hidden;
+}
+.keyscoursedur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.keyscoursetime {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.keyscourselevel {
+  width: 134px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.keyscoursetitle {
+  width: 162px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.egprocoursebox {
+  width: 446px;
+  height: 286px;
+  background: url("../images/v234_75.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 403px;
+  left: 0px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.egprocourserct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.egprocourserct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.egprocourseicon {
+  width: 175px;
+  height: 175px;
+  background: url("../images/egcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 253px;
+  overflow: hidden;
+}
+.egprocoursetitle {
+  width: 219px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.egprocourselevel {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.egprocoursedur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.egprocoursetime {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.gprocoursebox {
+  width: 446px;
+  height: 286px;
+  background: url("../images/v234_84.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 403px;
+  left: 475px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gprocourserct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.gprocourserct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.gprocourseicon {
+  width: 170px;
+  height: 170px;
+  background: url("../images/guitarcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 58px;
+  left: 259px;
+  overflow: hidden;
+}
+.gprocoursedur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.gprocoursetime {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.gprocourselevel {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.gprocoursetitle {
+  width: 101px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.keysprocoursebox {
+  width: 446px;
+  height: 286px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 403px;
+  left: 950px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.keysprocourserct {
+  width: 446px;
+  height: 286px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #EFECEC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.35s;
+}
+.keysprocourserct:hover {
+  width: 446px;
+  height: 286px;
+  background: rgba(221,221,221,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.keysprocourseicon {
+  width: 175px;
+  height: 175px;
+  background: url("../images/synthcicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 253px;
+  overflow: hidden;
+}
+.keysprocoursedur {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.keysprocoursetime {
+  width: 88px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 240px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.keysprocoursetitle {
+  width: 162px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 113px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.keysprocourselevel {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 145px;
+  left: 25px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
