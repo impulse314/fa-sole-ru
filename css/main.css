@@ -70,6 +70,7 @@ body {
   opacity: 1;
   text-align: left;
   cursor: pointer;
+  text-decoration: none;
 }
 .courseslink {
   width: 94px;
@@ -83,6 +84,7 @@ body {
   opacity: 1;
   text-align: left;
   cursor: pointer;
+  text-decoration: none;
 }
 .usefulslink {
   width: 289px;
@@ -95,7 +97,8 @@ body {
   font-size: 36px;
   opacity: 1;
   text-align: left;
-  cursor: pointer;
+  cursor: pointer;  
+  text-decoration: none;
 }
 .aboutlink {
   width: 123px;
@@ -109,6 +112,7 @@ body {
   opacity: 1;
   text-align: left;
   cursor: pointer;
+  text-decoration: none;
 }
 .resourcelink {
   width: 165px;
@@ -123,6 +127,7 @@ body {
   text-align: left;
   letter-spacing: 0px;
   cursor: pointer;
+  text-decoration: none;
 }
 .registrationbutton {
   width: 247px;
@@ -172,12 +177,13 @@ body {
   width: 166px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 22px;
-  left: 42px;
+  top: 47px;
+  left: 1255px;
   font-family: Antipasto Pro;
   font-weight: Regular;
   font-size: 30px;
   opacity: 1;
+  text-decoration: none;
   text-align: left;
 }
 .mainloginbutton {
@@ -228,12 +234,13 @@ body {
   width: 62px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 22px;
-  left: 56px;
+  top: 47px;
+  left: 1535px;
   font-family: Antipasto Pro;
   font-weight: Regular;
   font-size: 30px;
   opacity: 1;
+  text-decoration: none;
   text-align: left;
 }
 .greeting {
@@ -1072,13 +1079,14 @@ body {
   width: 211px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 16px;
-  left: 19px;
+  top: 377px;
+  left: 592px;
   font-family: Antipasto Pro;
   font-weight: Regular;
   font-size: 24px;
   opacity: 1;
   text-align: left;
+  text-decoration: none;
 }
 .footerbox {
   width: 100%;
