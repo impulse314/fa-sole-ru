@@ -2618,3 +2618,183 @@ Courses page
   opacity: 1;
   text-align: left;
 }
+
+/*-----------------------------------------------------
+
+Keys basic course page
+
+-----------------------------------------------------*/
+
+.kbcoursetitle {
+  width: 275px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 209px;
+  left: 822px;
+  font-family: Antipasto Pro;
+  font-weight: 600;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;    
+  line-height: 0.95;
+}
+.kbcoursebox {
+  width: 100%;
+  height: 382px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 331px;
+  left: 121px;
+  overflow: hidden;
+}
+
+.subscribe_button_rct {
+  width: 446px;
+  height: 66px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 316px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+.subscribe_button_rct:hover {
+  width: 446px;
+  height: 66px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 316px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+
+.subscribe_button_txt {
+  width: 201px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 326px;
+  left: 123px;
+  font-family: Antipasto Pro;
+  font-weight: 500;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+.course_description_h1 {
+  width: 60%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 497px;
+  font-family: Antipasto Pro;
+  font-weight: 500;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.course_description_h2{
+  width: 63%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 111px;
+  left: 497px;
+  font-family: Antipasto Pro;
+  font-weight: Light;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+
+.course_description_h3 {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 328px;
+  left: 497px;
+  font-family: Antipasto Pro;
+  font-weight: 500;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.goals_box {
+  width: 669px;
+  height: 214px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 778px;
+  left: 989px;
+  overflow: hidden;
+}
+
+.goals_box_pic {
+  width: 669px;
+  height: 217px;
+  background: url("../images/goals.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+}
+
+.req_box {
+  width: 672px;
+  height: 217px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 778px;
+  left: 262px;
+  overflow: hidden;
+}
+
+.req_box_pic {
+  width: 669px;
+  height: 217px;
+  background: url("../images/requirements.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+}
+
+.pics_line {
+position: absolute;
+width: 217.42px;
+height: 0px;
+left: 850px;
+top: 882px;
+
+border: 1px solid #000000;
+transform: rotate(-90deg);
+}
