@@ -110,6 +110,27 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'Helvetica';
+  src: url('helvetica_regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('helvetica_bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('helvetica_light.otf') format('otf');
+  font-weight: lighter;
+  font-style: normal;
+}
+
 /*-----------------------------------------------------
 
 Main page
@@ -2797,4 +2818,325 @@ top: 882px;
 
 border: 1px solid #000000;
 transform: rotate(-90deg);
+}
+
+/*-----------------------------------------------------
+
+About page
+
+-----------------------------------------------------*/
+
+.about_box {
+  width: 100%;
+  height: 442px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 225px;
+  left: 121px;
+  overflow: hidden;
+}
+
+.about_text_box {
+  width: 100%;
+  height: 388px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.about_rct {
+  width: 90%;
+  height: 388px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+
+.about_title {
+  width: 253px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 8px;
+  left: 712px;
+  font-family: Helvetica;
+  font-weight: Roman;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+.about_decription {
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 222px;
+  left: 365px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 42px;
+  opacity: 1;
+  text-align: right;
+}
+
+.facesbox {
+  width: 340px;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 102px;
+  left: 24px;
+  overflow: hidden;
+}
+
+.photoruda {
+  width: 100px;
+  height: 100px;
+  background: url(../images/ruda.png);  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+
+.photoacha {
+  width: 100px;
+  height: 100px;
+  background: url(../images/acha.png);  opacity: 1;
+  position: absolute;
+  top: 240px;
+  left: 0px;
+  border-radius: 50%;
+}
+
+.photogavr {
+  width: 100px;
+  height: 100px;
+  background: url(../images/gavr.png);  opacity: 1;
+  position: absolute;
+  top: 240px;
+  left: 240px;
+  border-radius: 50%;
+}
+
+.photoi314 {
+  width: 100px;
+  height: 100px;
+  background: url(../images/i314.png);  opacity: 1;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  border-radius: 50%;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  border-radius: 50%;
+}
+
+.statstitle {
+  width: 572px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 786px;
+  left: 674px;
+  font-family: Helvetica;
+  font-weight: Roman;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.statsbox {
+  width: 961px;
+  height: 226px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 867px;
+  left: 479px;
+  overflow: hidden;
+}
+
+.statsnum {
+  width: 23px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 8px;
+  left: 47px;
+  font-family: Helvetica;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+
+.statsdescr {
+  width: 289px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  font-family: Helvetica;
+  font-weight: Light;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+
+.cnumicon {
+  width: 32px;
+  height: 32px;
+  background: url("../images/cnumicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.snumicon {
+  width: 32px;
+  height: 32px;
+  background: url("../images/snumicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 338px;
+  overflow: hidden;
+}
+
+.nnumicon {
+  width: 32px;
+  height: 32px;
+  background: url("../images/cnumicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 672px;
+  overflow: hidden;
+}
+
+.aboutus {
+  width: 538px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1083px;
+  left: 691px;
+  font-family: Helvetica;
+  font-weight: Roman;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+
+.aboutuspic {
+  width: 649px;
+  height: 919px;
+  background: url("../images/aboutus.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1200px;
+  left: 610px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+.contacttext {
+  width: 264px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2192px;
+  left: 828px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.yticon {
+  width: 62px;
+  height: 62px;
+  background: url("../images/yticon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2370px;
+  left: 929px;
+  overflow: hidden;
+}
+
+.insticon {
+  width: 61px;
+  height: 62px;
+  background: url("../images/insticon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2370px;
+  left: 1031px;
+  overflow: hidden;
+}
+
+.vkicon {
+  width: 62px;
+  height: 62px;
+  background: url("../images/vkicon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2370px;
+  left: 828px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
 }
