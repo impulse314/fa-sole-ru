@@ -3,112 +3,113 @@
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-ExtraBold.eot');
-    src: local('Antipasto Pro ExtraBold'), local('AntipastoPro-ExtraBold'),
-        url('AntipastoPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-ExtraBold.woff2') format('woff2'),
-        url('AntipastoPro-ExtraBold.woff') format('woff'),
-        url('AntipastoPro-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-ExtraBold.eot');
+  src: local('Antipasto Pro ExtraBold'), local('AntipastoPro-ExtraBold'),
+      url('AntipastoPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-ExtraBold.woff2') format('woff2'),
+      url('AntipastoPro-ExtraBold.woff') format('woff'),
+      url('AntipastoPro-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-Thin.eot');
-    src: local('Antipasto Pro Thin'), local('AntipastoPro-Thin'),
-        url('AntipastoPro-Thin.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-Thin.woff2') format('woff2'),
-        url('AntipastoPro-Thin.woff') format('woff'),
-        url('AntipastoPro-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-Thin.eot');
+  src: local('Antipasto Pro Thin'), local('AntipastoPro-Thin'),
+      url('AntipastoPro-Thin.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-Thin.woff2') format('woff2'),
+      url('AntipastoPro-Thin.woff') format('woff'),
+      url('AntipastoPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-Light.eot');
-    src: local('Antipasto Pro Light'), local('AntipastoPro-Light'),
-        url('AntipastoPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-Light.woff2') format('woff2'),
-        url('AntipastoPro-Light.woff') format('woff'),
-        url('AntipastoPro-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-Light.eot');
+  src: local('Antipasto Pro Light'), local('AntipastoPro-Light'),
+      url('AntipastoPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-Light.woff2') format('woff2'),
+      url('AntipastoPro-Light.woff') format('woff'),
+      url('AntipastoPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-Bold.eot');
-    src: local('Antipasto Pro Bold'), local('AntipastoPro-Bold'),
-        url('AntipastoPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-Bold.woff2') format('woff2'),
-        url('AntipastoPro-Bold.woff') format('woff'),
-        url('AntipastoPro-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-Bold.eot');
+  src: local('Antipasto Pro Bold'), local('AntipastoPro-Bold'),
+      url('AntipastoPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-Bold.woff2') format('woff2'),
+      url('AntipastoPro-Bold.woff') format('woff'),
+      url('AntipastoPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-Hairline.eot');
-    src: local('Antipasto Pro Hairline'), local('AntipastoPro-Hairline'),
-        url('AntipastoPro-Hairline.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-Hairline.woff2') format('woff2'),
-        url('AntipastoPro-Hairline.woff') format('woff'),
-        url('AntipastoPro-Hairline.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-Hairline.eot');
+  src: local('Antipasto Pro Hairline'), local('AntipastoPro-Hairline'),
+      url('AntipastoPro-Hairline.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-Hairline.woff2') format('woff2'),
+      url('AntipastoPro-Hairline.woff') format('woff'),
+      url('AntipastoPro-Hairline.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-DemiBold.eot');
-    src: local('Antipasto Pro DemiBold'), local('AntipastoPro-DemiBold'),
-        url('AntipastoPro-DemiBold.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-DemiBold.woff2') format('woff2'),
-        url('AntipastoPro-DemiBold.woff') format('woff'),
-        url('AntipastoPro-DemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-DemiBold.eot');
+  src: local('Antipasto Pro DemiBold'), local('AntipastoPro-DemiBold'),
+      url('AntipastoPro-DemiBold.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-DemiBold.woff2') format('woff2'),
+      url('AntipastoPro-DemiBold.woff') format('woff'),
+      url('AntipastoPro-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-ExtraLight.eot');
-    src: local('Antipasto Pro ExtraLight'), local('AntipastoPro-ExtraLight'),
-        url('AntipastoPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-ExtraLight.woff2') format('woff2'),
-        url('AntipastoPro-ExtraLight.woff') format('woff'),
-        url('AntipastoPro-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-ExtraLight.eot');
+  src: local('Antipasto Pro ExtraLight'), local('AntipastoPro-ExtraLight'),
+      url('AntipastoPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-ExtraLight.woff2') format('woff2'),
+      url('AntipastoPro-ExtraLight.woff') format('woff'),
+      url('AntipastoPro-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-Medium.eot');
-    src: local('Antipasto Pro Medium'), local('AntipastoPro-Medium'),
-        url('AntipastoPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-Medium.woff2') format('woff2'),
-        url('AntipastoPro-Medium.woff') format('woff'),
-        url('AntipastoPro-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-Medium.eot');
+  src: local('Antipasto Pro Medium'), local('AntipastoPro-Medium'),
+      url('AntipastoPro-Medium.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-Medium.woff2') format('woff2'),
+      url('AntipastoPro-Medium.woff') format('woff'),
+      url('AntipastoPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Antipasto Pro';
-    src: url('AntipastoPro-Regular.eot');
-    src: local('Antipasto Pro Regular'), local('AntipastoPro-Regular'),
-        url('AntipastoPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('AntipastoPro-Regular.woff2') format('woff2'),
-        url('AntipastoPro-Regular.woff') format('woff'),
-        url('AntipastoPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Antipasto Pro';
+  src: url('AntipastoPro-Regular.eot');
+  src: local('Antipasto Pro Regular'), local('AntipastoPro-Regular'),
+      url('AntipastoPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('AntipastoPro-Regular.woff2') format('woff2'),
+      url('AntipastoPro-Regular.woff') format('woff'),
+      url('AntipastoPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 @font-face {
   font-family: 'Helvetica';
@@ -2042,6 +2043,7 @@ Courses page
   top: 55px;
   left: 253px;
   overflow: hidden;
+  filter: grayscale();
 }
 .egcourseboxtitle {
   width: 219px;
@@ -2874,7 +2876,7 @@ About page
   top: 8px;
   left: 712px;
   font-family: Helvetica;
-  font-weight: Roman;
+  font-weight: normal;
   font-size: 64px;
   opacity: 1;
   text-align: left;
@@ -2887,7 +2889,7 @@ About page
   top: 222px;
   left: 365px;
   font-family: Helvetica;
-  font-weight: Light;
+  font-weight: lighter;
   font-size: 42px;
   opacity: 1;
   text-align: right;
@@ -2958,13 +2960,13 @@ About page
 }
 
 .statstitle {
-  width: 572px;
+  width: 586px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 786px;
   left: 674px;
   font-family: Helvetica;
-  font-weight: Roman;
+  font-weight: normal;
   font-size: 48px;
   opacity: 1;
   text-align: left;
@@ -3058,7 +3060,7 @@ About page
   top: 1083px;
   left: 691px;
   font-family: Helvetica;
-  font-weight: Roman;
+  font-weight: normal;
   font-size: 48px;
   opacity: 1;
   text-align: center;
@@ -3139,4 +3141,63 @@ About page
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   overflow: hidden;
+}
+
+/*-----------------------------------------------------
+
+Useful links page
+
+-----------------------------------------------------*/
+
+.linkspic {
+  width: 100%;
+  height: 728px;
+  background: url("../images/linkspic.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.linkstitle {
+  width: 641px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 279px;
+  left: 1114px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+
+.linksdescr {
+  width: 80%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 808px;
+  left: 261px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+
+.linkscontent {
+  width: 498px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1102px;
+  left: 261px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
 }
