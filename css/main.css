@@ -3200,3 +3200,189 @@ Useful links page
   opacity: 1;
   text-align: left;
 }
+
+/*-----------------------------------------------------
+
+Tabs page
+
+-----------------------------------------------------*/
+
+.tabstitle {
+  width: 476px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 233px;
+  left: 722px;
+  font-family: Antipasto Pro;
+  font-weight: DemiBold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+
+.tabsbox {
+  width: 972px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 350px;
+  left: 455px;
+  overflow: hidden;
+}
+
+.tab_element {
+  width: 972px;
+  height: 61px;
+  background: rgba(239,236,236,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.35s;
+}
+
+.tab_element:hover {
+  width: 972px;
+  height: 61px;
+  background: #89DC91;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.tab_element_text {
+  width: 308px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 22px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.tabslevelbox {
+  width: 166px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 791px;
+  overflow: hidden;
+}
+
+.tabsleveltext {
+  width: 88px;
+  color: rgba(122,122,122,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Antipasto Pro;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+
+.levelone {
+  width: 63px;
+  height: 21px;
+  background: url("../images/level1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 95px;
+  overflow: hidden;
+}
+
+.leveltwo {
+  width: 63px;
+  height: 21px;
+  background: url("../images/level2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 95px;
+  overflow: hidden;
+}
+
+.levelthree {
+  width: 63px;
+  height: 21px;
+  background: url("../images/level3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 95px;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------------
+
+Tutorial page
+
+-----------------------------------------------------*/
+
+.tabfilebox {
+  width: 1000px;
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 345px;
+  left: 460px;
+  overflow: hidden;
+}
+
+.tabsvideo {
+  width: 222px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2029px;
+  left: 820px;
+  font-family: Antipasto Pro;
+  font-weight: Medium;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.tabvideobox {
+  width: 1000px;
+  height: 562px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2100px;
+  left: 450px;  
+  overflow: hidden;
+}
